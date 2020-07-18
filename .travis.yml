@@ -5,3 +5,4 @@ group: dev
 script:
   - curl 127.0.0.1:9200
   - uname -a
+  - service elasticsearch status
